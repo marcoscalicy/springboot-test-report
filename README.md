@@ -4,7 +4,7 @@ Projeto de Test em SpringBoot, com RestAssured e apresentando Allure Report.
 # Executando os testes:
 
 ```sh
-$ mvn clean pre-site verify -Pit-full
+$ mvn clean pre-site verify -Pit-test
 ```
 
 * pre-site = Serve para copiar os arquivos de configuração antes da execução dos testes, normanelte inseridos na pasta target/allure-results;
