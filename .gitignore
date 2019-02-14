@@ -1,0 +1,34 @@
+target/
+.mvn/
+src/database/log
+src/database/lib
+
+### VSCode ###
+.vscode
+.sts4-cache
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Allure ###
+.allure
+allure-results/

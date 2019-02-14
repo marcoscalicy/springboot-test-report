@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Ignorados",
+    "matchedStatuses": [ "skipped" ]
+  },
+    {
+      "name": "Falha",
+      "matchedStatuses": [ "failed"]
+    },
+    {
+      "name": "Sucesso",
+      "matchedStatuses": ["passed"]
+    }
+  ]
