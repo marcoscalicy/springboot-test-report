@@ -1,5 +1,8 @@
 package config;
 
+import br.com.marcoscalicy.treinamento.report.SpringTestReportApplication;
+import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Value;
@@ -7,11 +10,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-
-import br.com.marcoscalicy.treinamento.report.SpringTestReportApplication;
-import io.restassured.RestAssured;
-import io.restassured.builder.RequestSpecBuilder;
-import lombok.extern.slf4j.Slf4j;
 
 @ActiveProfiles("it")
 @RunWith(SpringJUnit4ClassRunner.class)

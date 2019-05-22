@@ -28,6 +28,7 @@
         <rest-assured.version>3.1.0</rest-assured.version>
         <rest-assured.jsonpath.version>3.1.0</rest-assured.jsonpath.version>
         <surefire.version>2.21.0</surefire.version>
+        <aspectj.version>1.9.4</aspectj.version>
 
         <!-- test flags -->
         <skipITs>true</skipITs>
@@ -37,7 +38,13 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
+
+        <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
